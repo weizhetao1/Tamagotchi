@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, universe!")
-            .padding()
+        VStack {
+            Text("Pet")
+            HStack {
+                Button("Feed Meal", action: {})
+                Button("Feed Snack", action: {})
+                Button("Play Game", action: {})
+            }
+        }
     }
 }
 
